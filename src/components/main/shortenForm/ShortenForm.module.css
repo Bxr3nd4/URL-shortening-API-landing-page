@@ -1,0 +1,31 @@
+.inputContainer {
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 10px;
+  background-image: url("../../../assets//bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-position-x: 150px;
+}
+.inputContainer button {
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  border: none;
+  
+}
+.inputContainer input {
+  border-radius: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  border: none;
+}
