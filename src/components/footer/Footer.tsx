@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import logo from "../../assets/logo.svg";
+// import logo from "../../assets/logo.svg";
 import facebook from "../../assets/icon-facebook.svg"
 import twitter from "../../assets/icon-twitter.svg"
 import pinterest from "../../assets/icon-pinterest.svg"
@@ -10,7 +10,8 @@ function Footer() {
     <>
       <div className={styles.footerContent}>
         <div className={styles.logo}>
-          <img src={logo} />
+          {/* <img src={logo} /> */}
+          <h1>Shortly</h1>
         </div>
 
         <div className={styles.bottom}>

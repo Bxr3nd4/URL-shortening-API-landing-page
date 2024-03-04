@@ -29,3 +29,11 @@
   font-weight: 400;
   border: none;
 }
+@media (min-width: 1440px) {
+  .inputContainer{
+    display: flex;
+  }
+  .input input{
+
+  }
+}

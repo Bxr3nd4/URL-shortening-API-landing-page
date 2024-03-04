@@ -29,3 +29,8 @@ ul li:first-child {
 ul li:not(:first-child) {
   font-weight: 500;
 }
+.logo h1 {
+  color: white;
+  padding-top: 10px;
+
+}

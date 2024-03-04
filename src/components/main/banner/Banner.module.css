@@ -9,11 +9,12 @@
 }
 .imgWorking img {
   width: 100%;
+  background-position-x: 300px;
 }
 .info h2 {
   text-align: center;
   font-size: 40px;
-  margin: 15px;
+
   color: hsl(255, 11%, 22%);
 }
 .info p {
@@ -32,4 +33,29 @@
   border: none;
   margin: 20px;
   font-size: 18px;
+}
+@media (min-width: 1440px) {
+  .Banner{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+  }
+  .info h2{
+    font-size: 80px;
+    text-align: left;
+  }
+  .info p{
+    width: 50%;
+    text-align: left;
+  }
+  .Banner .info{
+    display: flex;
+    align-items: flex-start;
+  }
+  .info button {
+    margin: 0px;
+    margin-top: 20px;
+  }
 }
